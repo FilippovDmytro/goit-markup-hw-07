@@ -55,7 +55,6 @@ button {
   list-style: none;
 }
 body {
-  min-width: 428px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -129,6 +128,7 @@ body {
 
 
 .mob-menu {
+display: block;
 position: fixed;
 top: 0;
 z-index: 100;
@@ -137,7 +137,7 @@ height: 100vh;
 background-color: var(--white-color);
 padding: 24px 24px 40px 40px;
 display: flex;
-float: column;
+flex-direction: column;
 justify-content: space-between;
 overflow: auto;
 }
@@ -257,6 +257,9 @@ margin-bottom: 72px;
 }
 
 /* ---------WORK SECTION------------------------ */
+.products{
+  display: none;
+}
 
 .work {
   margin-bottom: 8px;
@@ -295,16 +298,18 @@ margin-bottom: 72px;
 
 /* --------TEAM SECTION--------------------- */
 
-.our-team { 
+.our-team>.container{ 
+      max-width: 294px;
+}
 
-  margin-top: 112px;
-  background-color: var(--cloud);
+.our-team{    
+background-color: var(--cloud);
 }
 
 .team {
   padding-top: 96px;
   padding-bottom: 96px;
-   font-size: 36px;
+  font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--navy-blue);

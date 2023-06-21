@@ -21,7 +21,7 @@
 
 
 .section-hero {
-   background-image: linear-gradient(
+background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
@@ -31,7 +31,7 @@
 @media screen and (min-devise-pixel-ratio:2) and (max-width:767px),
     screen and (min-resolution: 192dpi) and (max-width:767px),
     screen and (min-resolution: 2dppx) and (max-width:767px) {
-.section-hero {  
+.section-hero {  {
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)

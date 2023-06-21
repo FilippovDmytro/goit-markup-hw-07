@@ -19,9 +19,12 @@
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    ----------------------- header -------------------------------
 
-    <!-- <header class="page-header">
+
+    <!-- ----------------------- header -------------------------------  -->
+
+
+    <header class="page-header">
       <div class="container page-header-container">
         <nav class="page-nav">
           <a class="link logo-img" href="./index.html">
@@ -53,11 +56,80 @@
             </li>
           </ul>
         </address>
+        </div>
+      <div class="burger-btn-box">
+          <button type="button" class="burger-btn"><svg class="burger-btn-svg" width="32" height="22">
+          <use href="./images/icons.svg#icon-menu-hamburger"></use>
+        </svg>
+          </button>
       </div>
-    </header>
-    <main> -->
-    ---------------------- hero ----------------------------
-    <section class="section-hero">
+      <div class="mob-menu">
+        <button type="button" class="burger-btn-close">X
+          <svg class="btn-close-svg" width="" height="">
+            <use href="./images/icons.svg#"></use>
+          </svg>
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link current link" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+          <address class="mob-menu-address">
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-mail-item">
+              <a class="mob-menu-mail link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mob-menu-mail-item">
+              <a class="menu-mail link" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      <ul class="media list link">
+            <li class="list-media">
+              <a class="social-link-media" href="#">
+                <svg class="icon-media" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-media">
+              <a class="social-link-media" href="#">
+                <svg class="icon-media" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-media">
+              <a class="social-link-media" href="#">
+                <svg class="icon-media" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-media">
+              <a class="social-link-media" href="#">
+                <svg class="icon-media" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>
+        </header>
+    <main>
+
+    <!-- ---------------------- hero ---------------------------- -->
+
+    <section clmoass="section-hero">
       <div class="container hero-wrap">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="btn-title" data-modal-open>
@@ -68,68 +140,68 @@
 
     <!----------------------Technologies -------------------------->
 
-    <!-- <section class="section">
-        <div class="container techno">
-          <h2 class="visually-hidden">list of features</h2>
-          <ul class="list link work-list">
-            <li class="work-item">
-              <div class="equipment">
-                <svg class="equipment-size" width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna"></use>
-                </svg>
-              </div>
-              <h3 class="work">Strategy</h3>
-              <p class="item-text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
+    <section class="section">
+      <div class="container techno">
+        <h2 class="visually-hidden">list of features</h2>
+        <ul class="list link work-list">
+          <li class="work-item">
+            <div class="equipment">
+              <svg class="equipment-size" width="64" height="64">
+                <use href="./images/icons.svg#icon-antenna"></use>
+              </svg>
+            </div>
+            <h3 class="work">Strategy</h3>
+            <p class="item-text">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
 
-            <li class="work-item">
-              <div class="equipment">
-                <svg class="equipment-size" width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock"></use>
-                </svg>
-              </div>
-              <h3 class="work">Punctuality</h3>
-              <p class="item-text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
+          <li class="work-item">
+            <div class="equipment">
+              <svg class="equipment-size" width="64" height="64">
+                <use href="./images/icons.svg#icon-clock"></use>
+              </svg>
+            </div>
+            <h3 class="work">Punctuality</h3>
+            <p class="item-text">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
 
-            <li class="work-item">
-              <div class="equipment">
-                <svg class="equipment-size" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram"></use>
-                </svg>
-              </div>
-              <h3 class="work">Diligence</h3>
-              <p class="item-text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
+          <li class="work-item">
+            <div class="equipment">
+              <svg class="equipment-size" width="64" height="64">
+                <use href="./images/icons.svg#icon-diagram"></use>
+              </svg>
+            </div>
+            <h3 class="work">Diligence</h3>
+            <p class="item-text">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
 
-            <li class="work-item">
-              <div class="equipment">
-                <svg class="equipment-size" width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut"></use>
-                </svg>
-              </div>
-              <h3 class="work">Technologies</h3>
-              <p class="item-text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section> -->
+          <li class="work-item">
+            <div class="equipment">
+              <svg class="equipment-size" width="64" height="64">
+                <use href="./images/icons.svg#icon-astronaut"></use>
+              </svg>
+            </div>
+            <h3 class="work">Technologies</h3>
+            <p class="item-text">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <!------------------------------ products ------------------------->
 
-    <!-- <section class="section products">
+    <section class="section products">
         <div class="container products-container">
           <h2 class="main">What are we doing</h2>
           <ul class="link list main-list">
@@ -144,17 +216,18 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
     <!------------------------------- team -------------------------->
 
-    <!-- <section class="section our-team">
+    <section class="section our-team">
       <div class="container team-group">
         <h2 class="team">Our Team</h2>
         <ul class="list link group">
           <li class="team-list">
             <img
-              src="./images/Mark_Guerrero.jpg"
+            srcset="./images/team/mark.jpg 1x, ./images/team/mark@2x.jpg 2x"
+              src="./images/mark.jpg"
               alt="Mark Guerrero"
               width="264"
               class="mark-img"
@@ -197,7 +270,8 @@
 
           <li class="team-list">
             <img
-              src="./images/Tom_Ford.jpg"
+            srcset="./images/team/tom.jpg 1x, ./images/team/tom@2x.jpg 2x"
+              src="./images/tom.jpg"
               alt="Tom Ford"
               width="264"
               class="tom-img"
@@ -239,7 +313,8 @@
           </li>
           <li class="team-list">
             <img
-              src="./images/Camila_Garcia.jpg"
+            srcset="./images/team/camila.jpg 1x, ./images/team/camila@2x.jpg 2x"
+              src="./images/camila.jpg" 
               alt="Camila Garcia"
               width="264"
               class="camila-img"
@@ -281,7 +356,8 @@
           </li>
           <li class="team-list">
             <img
-              src="./images/Daniel_Wilson.jpg"
+            srcset="./images/team/daniel.jpg 1x, ./images/team/daniel@2x.jpg 2x"
+              src="./images/daniel.jpg"
               alt="Daniel Wilson"
               width="264"
               class="daniel-img"
@@ -323,7 +399,7 @@
           </li>
         </ul>
       </div>
-    </section> -->
+    </section>
 
     <!-- ----------------CUSTOMER SECTION --------------------------- -->
 
@@ -380,7 +456,7 @@
 
     <!-- --------------------FOOTER---------------------------- -->
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="foot-all">
         <div class="footer-logo">
           <a class="link footer-img" href="./index.html">
@@ -446,7 +522,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- -----------------MODAL------------------------------------------------->
 

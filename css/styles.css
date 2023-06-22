@@ -243,8 +243,9 @@ margin-bottom: 72px;
   display: block;
   gap: 24px;
 }
-.work-item:not(:last-child) {margin-bottom: 72px;
-}
+.work-item :not(:last-child)
+{margin-bottom: 72px}
+
 
 .equipment {
   display: none;
